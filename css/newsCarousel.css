@@ -1,0 +1,44 @@
+#newsCarousel-one {
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/* Buttons */
+
+#newsCarousel-one button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 9;
+}
+
+.newsCarousel-next {
+    right: 10px;
+}
+
+.newsCarousel-previous {
+    left: 10px;
+}
+
+
+/* newsCarousel-one-news */
+
+#newsCarousel-one-news {
+    display: inline-block;
+    transition: transform 1s;
+}
+
+
+/* Divs */
+
+.newsCarousel-one-divs {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

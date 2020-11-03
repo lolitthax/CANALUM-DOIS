@@ -1,0 +1,24 @@
+#single-item {
+    /* width: 100%;
+    height: 100%; */
+    margin: 0 auto;
+}
+
+#carousel-images {
+    width: 100%;
+    /* height: 400px; */
+}
+
+.carousel-images-div {
+    width: 100%;
+    /* height: 400px; */
+}
+
+.carousel-images-div img {
+    width: 100%;
+    height: 100%;
+}
+
+.slick-dots {
+    display: none !important;
+}
